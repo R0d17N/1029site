@@ -1,28 +1,33 @@
 @media only screen and (max-width: 1100px){
 	body{
-		margin: 0;
-
 		background: linear-gradient(45deg,
 		#080808, #303030);
-		background-size: 1500% 1500%;
-		animation: gradient 7s ease infinite;
+		background-size: 700% 700%;
+		animation: gradient 5s ease infinite;
+	}
+	textarea {
+		width: 550px;
+		height: 250px;
+		font-size: 40px;
 	}
 	@keyframes gradient{
 		0%{
-			background-position: 0 50%;
+			background-position: 0 40%;
 		}
 		50%{
-			background-position: 100% 50%;
+			background-position: 90% 40%;
 		}
 		100%
 		{
-			background-position: 0 50%;
+			background-position: 0 40%;
 		}
 	}
 	.sitetitle{
-		font-size: 100px;
+		text-align: center;
+		font-size: 167px;
 		position: absolute;
-		left: 13%;
+		left: 4%;
+		top: 16%;
 	}
 	.start{
 		background: url("pictures\\fon.png");
@@ -30,12 +35,65 @@
 		height: 604px;
 		position: absolute;
 		left: 0px;
-		top: -11px;
+		top: 0px;
 	}
 	.starttitle{
-
+		font-size: 80px;
 		position: absolute;
-		left: 15%;
-		top: 30%;
+		left: 9%;
+		top: 100%;
+	}
+	.starttext{
+		text-align: left;
+		font-size: 90px;
+		position: absolute;
+		left: 9%;
+		top: 120%;
+	}
+	.infoblock{
+		width: 100%;
+		position: absolute;
+		top: 80%;
+		left: 10%;
+	}
+	.infoblocktitle1{
+		text-align: left;
+		font-size: 90px;
+		position: absolute;
+		top: 100px;
+		left: 3%;
+	}
+	.infotextarea1{
+		font-size: 70px;
+		position: absolute;
+		top: 700px;
+		left: 35%;
+	}
+	.infotextarea2{
+		position: absolute;
+		top: 1500px;
+		left: 2%;
+	}
+	.infotextarea3{
+		position: absolute;
+		top: 1500px;
+		right: -18%;
+	}
+	.textconsole1{
+		font-size: 70px;
+		position: absolute;
+		top: 1281px;
+		left: 515px;
+	}
+	.empty{
+		width: 100px;
+		position: absolute;
+		top: 4000px;
+	}
+	a{
+		color: blue;
+	}
+	a:hover{
+		color: rgb(54, 41, 125);
 	}
 }
