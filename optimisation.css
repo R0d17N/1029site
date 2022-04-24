@@ -1,26 +1,11 @@
 @media only screen and (max-width: 1100px){
 	body{
-		background: linear-gradient(45deg,
-		#080808, #303030);
-		background-size: 700% 700%;
-		animation: gradient 5s ease infinite;
+		background-color: rgb(27, 27, 27)
 	}
 	textarea {
 		width: 550px;
 		height: 250px;
 		font-size: 40px;
-	}
-	@keyframes gradient{
-		0%{
-			background-position: 0 40%;
-		}
-		50%{
-			background-position: 90% 40%;
-		}
-		100%
-		{
-			background-position: 0 40%;
-		}
 	}
 	.sitetitle{
 		text-align: center;
