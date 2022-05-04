@@ -80,7 +80,7 @@ body{
 a{
 	color: blue;
 }
-a:hover{
+a:not(:hover){
 	transition: 1s;
 	color: rgb(54, 41, 125);
 }
