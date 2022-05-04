@@ -1,0 +1,86 @@
+/* background-color: rgb(27, 27, 27) */
+body{
+	margin: 0;
+
+	background: linear-gradient(45deg,
+	#121212, #363535);
+	background-size: 800% 800%;
+	animation: gradient 5s ease infinite;
+}
+@keyframes gradient{
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+.sitetitle{
+	position: absolute;
+	left: 37%;
+}
+.start{
+	background: url("pictures\\fon.png");
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	left: 0px;
+	top: -11px;
+}
+.starttitle{
+	position: absolute;
+	left: 38%;
+	top: 30%;
+}
+.starttext{
+	text-align: center;
+	position: absolute;
+	left: 14%;
+	top: 35%;
+}
+.infoblock{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 70%;
+}
+.infoblocktitle1{
+	position: absolute;
+	top: -20%;
+	left: 26%;
+}
+.infotextarea1{
+	position: absolute;
+	top: 100px;
+	left: 41%;
+}
+.infotextarea2{
+	position: absolute;
+	top: 370px;
+	left: 30%;
+}
+.infotextarea3{
+	position: absolute;
+	top: 370px;
+	right: 30%;
+}
+.textconsole1{
+	position: absolute;
+	top: 320px;
+	left: 921px;
+}
+.empty{
+	width: 100px;
+	position: absolute;
+	top: 1499px;
+}
+a{
+	color: blue;
+}
+a:not(:hover){
+	transition: 1s;
+	color: rgb(54, 41, 125);
+}
